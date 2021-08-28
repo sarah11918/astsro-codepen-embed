@@ -1,0 +1,19 @@
+{
+    "name": "astro-codepen-embed",
+    "version": "0.1.0",
+    "description": "Makes it easy to embed a Pen from CodeSandbox.",
+    "homepage": "https://github.com/sarah11918/astro-codepen-embed#readme",
+    "bugs": {
+      "url": "https://github.com/sarah11918/astro-codepen-embed/issues"
+    },
+    "repository": {
+      "type" : "git",
+      "url" : "https://github.com/sarah11918/astro-codepen-embed"
+    },
+    "exports": "./src/index.js",
+    "keywords": [
+      "astro-component"
+    ],
+    "author": "Sarah Rainsberger",
+    "license": "MIT"
+  }
