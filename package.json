@@ -1,5 +1,5 @@
 {
-    "name": "astro-codepen-embed",
+    "name": "@sarah11918/astro-codepen-embed",
     "version": "0.1.0",
     "description": "Makes it easy to embed a Pen from CodeSandbox.",
     "homepage": "https://github.com/sarah11918/astro-codepen-embed#readme",
