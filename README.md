@@ -1,4 +1,4 @@
-# 🚀 astsro Codepen Embed
+# 🚀 astro Codepen Embed
 
 This [Astro](https://astro.build/) component makes it easy to add and customize a [CodePen.io](https://codepen.io) embed.
 
