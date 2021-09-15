@@ -1,1 +1,1 @@
-export { default as CodePen } from './CodePen.astro';
+export { default as Pen } from './Pen.astro';

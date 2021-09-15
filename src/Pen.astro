@@ -1,0 +1,24 @@
+---
+const { slug, user, height = "300", tabs = "js,result", editable="true", clickToLoad = "false" } = Astro.props
+const penURL = `https://codepen.io/sarah11918/pen/${slug}`
+const userURL = `https://codepen.io/${user}`
+
+---
+ <style>
+.embed {
+  box-sizing: border-box; 
+  align-items: center; 
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+ </style>
+ <div class="embed">
+ <p class="codepen" data-height={height} data-default-tab={tabs} data-slug-hash={slug} data-editable={editable} data-preview={clickToLoad} data-user={user} >
+  <span>See the Pen <a href={penURL}>
+  5-pin bowling game</a> by Sarah Rainsberger (<a href={userURL}>@sarah11918</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+</div>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
